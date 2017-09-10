@@ -24,7 +24,6 @@ namespace FlatScraper_BigCoreBrother.Services.Worker
             {
                 RunFlatWebsiteScraper("domoPliusAppSettings", new DomoPliusLt());
                 RunFlatWebsiteScraper("aruodasAppSettings", new AruodasLt());
-                Console.WriteLine("Test");
 
                 ScrapeFileManager.ReadFromFile();
             }

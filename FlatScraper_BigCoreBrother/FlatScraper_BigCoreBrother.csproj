@@ -32,6 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Umut-Pulat-Tulliana-2-Char-device.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Logger">
       <HintPath>..\Logger\bin\Release\Logger.dll</HintPath>
@@ -80,6 +86,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="View\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Umut-Pulat-Tulliana-2-Char-device.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
